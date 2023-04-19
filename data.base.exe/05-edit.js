@@ -30,4 +30,4 @@ function editKoder(id) {
     })
 }
 
-editKoder(1)
+editKoder(4)

@@ -1,0 +1,103 @@
+{
+    "koders": [
+        {
+            "id": 1,
+            "name": "Javier",
+            "age": "29",
+            "generation": "24",
+            "location": "metepec"
+        },
+        {
+            "id": 2,
+            "name": "Manuel",
+            "Age": "36",
+            "generation": "24",
+            "location": "CDMX"
+        },
+        {
+            "id": 3,
+            "name": "Leonardo",
+            "lastName": "Castro",
+            "Age": "24",
+            "generation": "24",
+            "location": "tijuana"
+        },
+        {
+            "id": 4,
+            "name": "Roberto",
+            "age": "29",
+            "generation": "24",
+            "location": "metepec"
+        },
+        {
+            "id": 5,
+            "name": "Damaris",
+            "age": "29",
+            "generation": "24",
+            "location": "cdmx"
+        },
+        {
+            "id": 6,
+            "name": "Eduardo",
+            "age": "24",
+            "generation": "23",
+            "location": "cdmx"
+        },
+        {
+            "id": 7,
+            "name": "Juan",
+            "age": "20",
+            "generation": "23",
+            "location": "zapopan"
+        },
+        {
+            "id": 8,
+            "name": "Sergio",
+            "age": "32",
+            "generation": "22",
+            "location": "CDMX"
+        }
+    ],
+    "mentors": [
+        {
+            "id": 1,
+            "name": "Alfred",
+            "module": "backend",
+            "age": 29,
+            "generations": [
+                "20",
+                "24"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Isra",
+            "module": "Frontend",
+            "age": 30,
+            "generations": [
+                "22",
+                "24"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Rose",
+            "module": "Nada",
+            "age": 22,
+            "generations": [
+                "23",
+                "24"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Nao",
+            "module": "Introducción",
+            "age": 23,
+            "generations": [
+                "22",
+                "24"
+            ]
+        }
+    ]
+}
