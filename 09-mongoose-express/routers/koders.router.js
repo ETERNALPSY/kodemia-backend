@@ -57,9 +57,9 @@ router.post("/", async (request, response) => {
     }
 })
 
-router.patch("/:_id", async (request, response) => {
+router.patch("/:id", async (request, response) => {
     try {
-        const id = request.params
+        const { id } = request.params
         const dataToPatch = request.body
 
         const koderToUpdate = await Koder.findByIdAndUpdate(id, dataToPatch, { new: true })
@@ -85,9 +85,9 @@ router.patch("/:_id", async (request, response) => {
     }
 })
 
-router.delete("/:_id", async (request, response) => {
+router.delete("/:id", async (request, response) => {
     try {
-        const id = request.params
+        const { id } = request.params
 
         const koderToDelete = await Koder.findByIdAndDelete(id)
         console.log(koderToDelete)

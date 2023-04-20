@@ -13,6 +13,22 @@ const server = express()
 
 //Middleware
 server.use(express.json())//convierte el request a JSON = JSON.parse()
+
+server.use((request, response, next) => {
+    
+    const { isAdmin } = request.body
+    
+    if (!isAdmin) {
+        response
+        .status(403)
+        .json({
+            success: false,
+            message: `No eres administrador`
+        })
+    } 
+    next()
+})
+
 server.use('/koders', kodersRouter)
 
 
